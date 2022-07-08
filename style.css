@@ -8,6 +8,7 @@
    
     background-size: cover;
     background-position: top center;
+    transition: all ease 1s;
   }
   .app-wrap {
     display: flex;

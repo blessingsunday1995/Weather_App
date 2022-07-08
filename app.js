@@ -48,10 +48,18 @@ console.log(weatherState)
 
      if(weatherState == 'Clouds'){
             console.log("it working")
-            document.body.style.backgroundImage ="url('/bg.jpg')"
+            document.body.style.backgroundImage ="url('/cloud2.gif')"
     }else if(weatherState == 'Sunny'){
 
-        document.body.style.backgroundImage ="url('/bg.jpg')"
+        document.body.style.backgroundImage ="url('/sunny2.gif')"
+
+    }else if(weatherState == 'Rain'){
+
+        document.body.style.backgroundImage ="url('/rain3.gif')"
+
+    }else if(weatherState == 'Clear'){
+
+        document.body.style.backgroundImage ="url('/clear2.gif')"
 
     }
  
